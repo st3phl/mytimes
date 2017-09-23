@@ -4,6 +4,10 @@ a {
   color: black;
 }
 
+div {
+  border: 1px solid black;
+}
+
 /* Header */
 
 header {
@@ -37,4 +41,28 @@ nav span {
   flex-grow: 1;
   align-items: center;
   padding-left: 30px;
+}
+
+/* Main Content */
+
+.main-content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
