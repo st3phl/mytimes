@@ -1,5 +1,9 @@
 /* Base Styles */
 
+body {
+  margin: 0;
+}
+
 a {
   color: black;
 }
@@ -19,6 +23,9 @@ header {
   border-bottom: 1px solid black;
   display: flex;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
 }
 
 header p {
@@ -47,6 +54,7 @@ nav span {
 
 .main-content {
   display: flex;
+  padding-top: 116px;
 }
 
 .column {
