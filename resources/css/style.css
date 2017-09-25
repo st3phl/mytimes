@@ -88,11 +88,15 @@ nav span {
   font-size: 30px;
   color: white;
   height: 300px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .main-story .image-block {
   font-size: 40px;
   background-image: url("../images/img-story-main.png");
+  text-align: left;
+  margin-top: 0;
 }
 
 .sub-story-one .image-block {
