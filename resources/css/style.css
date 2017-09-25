@@ -8,10 +8,6 @@ a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 /* Header */
 
 header {
@@ -55,6 +51,7 @@ nav span {
 .main-content {
   display: flex;
   padding-top: 116px;
+  margin-bottom: 78px;
 }
 
 .column {
@@ -77,9 +74,22 @@ nav span {
 
 /* Stories */
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.main-story,
 .story {
   font-family: Georgia;
-  font-size: 17px;
+  /*font-size: 17px;*/
   color: black;
 }
 
@@ -109,4 +119,8 @@ nav span {
 
 .sub-story-three .image-block {
   background-image: url("../images/img-story-1.png");
+}
+
+.stories .text-block {
+  height: 250px;
 }
