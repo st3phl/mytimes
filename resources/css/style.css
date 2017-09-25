@@ -2,10 +2,18 @@
 
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 a {
   color: black;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
 }
 
 /* Header */
@@ -86,13 +94,6 @@ nav span {
   width: 300px;
 }
 
-.main-story,
-.story {
-  font-family: Georgia;
-  /*font-size: 17px;*/
-  color: black;
-}
-
 .image-block {
   font-weight: bold;
   font-size: 30px;
@@ -100,6 +101,9 @@ nav span {
   height: 300px;
   text-align: center;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-story .image-block {
@@ -107,6 +111,10 @@ nav span {
   background-image: url("../images/img-story-main.png");
   text-align: left;
   margin-top: 0;
+}
+
+.main-story .image-block span {
+  margin-left: 20px;
 }
 
 .sub-story-one .image-block {
